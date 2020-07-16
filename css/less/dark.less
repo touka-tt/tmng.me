@@ -1,0 +1,120 @@
+// out: ../dark.css, compress: false
+
+body {
+    &.dark {
+        color: #fff;
+        background: #000;
+    }
+}
+
+.dark {
+    .main {
+        background: #000;
+    }
+    
+    .top-panel {
+        .logo {
+            .for-day-mode {
+                display: none;
+            }
+            
+            .for-night-mode {
+                display: block;
+            }
+        }
+    }
+
+    .quotes-section .quote-row {
+        color: #000;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .more-projects .cases-link:before {
+        background-image: url(../img/arrow-border-dark-version.svg);
+    }
+
+    .more-projects .cases-link:hover span {
+        color: #000;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .menu-wrap {
+        background: #000;
+    }
+
+    .menu-wrap .menu-close {
+        background-image: url(../img/back-white.svg);
+    }
+
+    .main-screen .main-title .title-with-img .selected:hover {
+        //-webkit-text-stroke: 1px white;
+        color: #fff;
+    }
+
+    .header .awards:before {
+        background-image: url(../img/award-white.svg);
+    }
+
+    .arrows .arrow {
+        background: #000;
+
+        &:before {
+            background-image: url(../img/btn-arrow.svg);
+        }
+    }
+    
+    .lang-link {
+        &:hover {
+            color: #fff;
+        }
+    }
+    
+    .case-authors .col .name:before {
+        background: #fff;
+    }
+    
+    .other-projects {
+        .items {
+            &.hover {
+                .item {
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    
+    .main-title {
+        &.hovered {
+            .title-with-img {
+                color: #555555;
+            }
+        }
+    }
+    
+    .other-projects .items {
+        &.hover {
+            .item {
+                color: #555555;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .dark {
+        .more-projects .cases-link:hover span {
+            color: #fff;
+            -webkit-text-stroke: inherit;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .dark {
+        .more-projects .cases-link:before {
+            background-image: url(../img/arrow-bold-dark-version.svg);
+        }
+    } 
+}
