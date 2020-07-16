@@ -229,7 +229,7 @@ $(document).ready(function(){
     
     
     $(window).on('resize',function() {
-        if ($(".title-img").length) {
+        if (($(".title-img").length) && (!fullScreenVideo)) {
             var titleImg = $(".title-img"),
                 titleImgWidth = titleImg.innerWidth(),
                 titleImgHeight = titleImg.innerHeight(),
@@ -355,7 +355,10 @@ $(document).ready(function(){
             if (document.webkitIsFullScreen === false) {
                 document.getElementById("append-video").pause();
                 $(".full-video").remove();
-                fullScreenVideo = false;
+                
+                setTimeout(function () {
+                    fullScreenVideo = false;
+                }, 100);
                 
                 setTimeout(function () {
                     $("body").height($("body").attr("data-height"));
@@ -400,11 +403,6 @@ $(document).ready(function(){
             var targetCoords = target.getBoundingClientRect();
             var xCoord = e.clientX - targetCoords.left;
             var yCoord = e.clientY - targetCoords.top;
-            
-            $(".dot").css({
-              left: xCoord,
-                top: yCoord
-            });
         }
     });
     //cursor
