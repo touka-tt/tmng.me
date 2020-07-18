@@ -11,6 +11,16 @@ const fs = require('fs')
 let pageData = yaml.safeLoad(fs.readFileSync("./src/data/data.yml", 'utf-8'))
 const app = assemble()
 
+app.helper('each_upto', function (ary, max, options) {
+    if (!ary || ary.length === 0)
+        return options.inverse(this);
+
+    let result = [];
+    for (let i = 0; i < max && i < ary.length; ++i)
+        result.push(options.fn(ary[i]));
+    return result.join('');
+});
+
 gulp.task('load', function (done) {
     app.partials('src/partials/*.hbs')
     app.layouts('src/layouts/common.hbs')
@@ -18,7 +28,7 @@ gulp.task('load', function (done) {
     done()
 })
 
-gulp.task('less', function(done) {
+gulp.task('less', function (done) {
     gulp.src('src/asset/css/less/*.less')
         .pipe(less())
         .pipe(cssmin())

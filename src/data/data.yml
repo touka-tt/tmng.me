@@ -38,48 +38,47 @@ common:
     - title: Facebook
       url: https://www.facebook.com/takayuki.tominaga
 
-index:
-  case:
-    - doc: case.html
-      title: hoge
-      img: img/bg-1.jpg
-      year: 2019
-      tag:
-        - Web design
-        - animation
-    - doc: case.html
-      title: fuga
-      img: img/bg-1.jpg
-      year: 2019
-      tag:
-        - Web design
-        - animation
-    - doc: case.html
-      title: Diamond
-      img: img/bg-1.jpg
-      year: 2019
-      tag:
-        - Web design
-        - animation
-    - doc: case.html
-      title: Diamond
-      img: img/bg-1.jpg
-      year: 2019
-      tag:
-        - Web design
-        - animation
-    - doc: case.html
-      title: Diamond
-      img: img/bg-1.jpg
-      year: 2019
-      tag:
-        - Web design
-        - animation
-    - doc: case.html
-      title: Diamond
-      img: img/bg-1.jpg
-      year: 2019
-      tag:
-        - Web design
-        - animation
+project:
+  - doc: case.html
+    title: hoge
+    img: img/bg-1.jpg
+    year: 2019
+    tag:
+      - Web design
+      - animation
+  - doc: case.html
+    title: fuga
+    img: img/bg-1.jpg
+    year: 2019
+    tag:
+      - Web design
+      - animation
+  - doc: case.html
+    title: Diamond
+    img: img/bg-1.jpg
+    year: 2019
+    tag:
+      - Web design
+      - animation
+  - doc: case.html
+    title: Diamond
+    img: img/bg-1.jpg
+    year: 2019
+    tag:
+      - Web design
+      - animation
+  - doc: case.html
+    title: Diamond
+    img: img/bg-1.jpg
+    year: 2019
+    tag:
+      - Web design
+      - animation
+  - doc: case.html
+    title: Diamond
+    img: img/bg-1.jpg
+    year: 2019
+    tag:
+      - Web design
+      - animation
 

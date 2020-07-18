@@ -39,19 +39,19 @@
         <div class="cases js-after-quotes" id="cases">
             <div class="wrap">
                 <div class="wrap_float content">
-                    {{#each page.index.case}}
-                    <a href="{{this.doc}}" class="case-item">
-                        <h3 class="case-item-title link link-effect"><span>{{this.title}}</span></h3>
-                        <div class="case-item-image">
-                            <div class="image-container case-img" style="background-image: url({{this.img}});">
+                    {{#each_upto page.project 3}}
+                        <a href="{{this.doc}}" class="case-item">
+                            <h3 class="case-item-title link link-effect"><span>{{this.title}}</span></h3>
+                            <div class="case-item-image">
+                                <div class="image-container case-img" style="background-image: url({{this.img}});">
+                                </div>
                             </div>
-                        </div>
-                        <div class="case-item-info content__item-title">
-                            <div class="case-item-info-left">{{#each this.tag}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</div>
-                            <div class="case-item-info-right">{{this.year}}</div>
-                        </div>
-                    </a>
-                    {{/each}}
+                            <div class="case-item-info content__item-title">
+                                <div class="case-item-info-left">{{#each this.tag}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</div>
+                                <div class="case-item-info-right">{{this.year}}</div>
+                            </div>
+                        </a>
+                    {{/each_upto}}
                 </div>
             </div>
         </div>
