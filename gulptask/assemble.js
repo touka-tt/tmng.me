@@ -8,7 +8,7 @@ const plumber = require('gulp-plumber')
 const yaml = require('js-yaml')
 const assemble = require('assemble')
 const fs = require('fs')
-let obj = yaml.safeLoad(fs.readFileSync("./src/data/data.yml", 'utf-8'))
+let pageData = yaml.safeLoad(fs.readFileSync("./src/data/data.yml", 'utf-8'))
 const app = assemble()
 
 gulp.task('load', function (done) {
@@ -30,8 +30,8 @@ gulp.task('less', function(done) {
 gulp.task('assemble', gulp.series('less', gulp.parallel('load'), function () {
     return app.toStream('pages')
         .pipe(plumber())
-        .pipe(app.renderFile({layout: 'common', obj: obj}))
-        .pipe(htmlmin({collapseWhitespace: true, minifyJS: true}))
+        .pipe(app.renderFile({layout: 'common', page: pageData}))
+        .pipe(htmlmin({collapseWhitespace: true, minifyJS: true, removeComments: true}))
         .pipe(rename({basename: 'index'}))
         .pipe(extname('.html'))
         .pipe(app.dest('dist/'))

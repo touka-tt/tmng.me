@@ -1,2 +1,85 @@
-page:
+common:
   title: TMNG.
+  css:
+    - css/slick.css
+    - css/style.min.css
+    - css/dark.min.css
+  js:
+    - js/jquery.min.js
+    - js/polyfill.min.js
+    - js/device.min.js
+    - js/imagesloaded.pkgd.min.js
+    - js/slick.min.js
+    - js/scroll.js
+    - js/scripts.js
+  favicon:
+    - size: 32x32
+      img: img/favicons/favicon-32x32.png
+    - size: 16x16
+      img: img/favicons/favicon-16x16.png
+    - size: 192x192
+      img: img/favicons/android-chrome-192x192.png
+    - size: 512x512
+      img: img/favicons/android-chrome-512x512.png
+    - size: 16x16
+      img: img/favicons/favicon.ico
+  menu:
+    - title: Home
+      url: /
+    - title: About
+      url: /about
+    - title: Project
+      url: /project
+    - title: Schedule
+      url: /shcedule
+  socialLink:
+    - title: Twitter
+      url: https://twitter.com/touka_tt
+    - title: Facebook
+      url: https://www.facebook.com/takayuki.tominaga
+
+index:
+  case:
+    - doc: case.html
+      title: hoge
+      img: img/bg-1.jpg
+      year: 2019
+      tag:
+        - Web design
+        - animation
+    - doc: case.html
+      title: fuga
+      img: img/bg-1.jpg
+      year: 2019
+      tag:
+        - Web design
+        - animation
+    - doc: case.html
+      title: Diamond
+      img: img/bg-1.jpg
+      year: 2019
+      tag:
+        - Web design
+        - animation
+    - doc: case.html
+      title: Diamond
+      img: img/bg-1.jpg
+      year: 2019
+      tag:
+        - Web design
+        - animation
+    - doc: case.html
+      title: Diamond
+      img: img/bg-1.jpg
+      year: 2019
+      tag:
+        - Web design
+        - animation
+    - doc: case.html
+      title: Diamond
+      img: img/bg-1.jpg
+      year: 2019
+      tag:
+        - Web design
+        - animation
+

@@ -39,73 +39,19 @@
         <div class="cases js-after-quotes" id="cases">
             <div class="wrap">
                 <div class="wrap_float content">
-                    <a href="case.html" class="case-item">
-                        <h3 class="case-item-title link link-effect"><span>Diamond</span></h3>
+                    {{#each page.index.case}}
+                    <a href="{{this.doc}}" class="case-item">
+                        <h3 class="case-item-title link link-effect"><span>{{this.title}}</span></h3>
                         <div class="case-item-image">
-                            <div class="image-container case-img" style="background-image: url(img/bg-1.jpg);">
+                            <div class="image-container case-img" style="background-image: url({{this.img}});">
                             </div>
                         </div>
                         <div class="case-item-info content__item-title">
-                            <div class="case-item-info-left">Web design, animation</div>
-                            <div class="case-item-info-right">2019</div>
+                            <div class="case-item-info-left">{{#each this.tag}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</div>
+                            <div class="case-item-info-right">{{this.year}}</div>
                         </div>
                     </a>
-                    <a href="case.html" class="case-item">
-                        <h3 class="case-item-title link link-effect"><span>Coronto</span></h3>
-                        <div class="case-item-image">
-                            <div class="image-container case-img" style="background-image: url(img/bg-1.jpg);">
-                            </div>
-                        </div>
-                        <div class="case-item-info content__item-title">
-                            <div class="case-item-info-left">Web design, animation</div>
-                            <div class="case-item-info-right">2019</div>
-                        </div>
-                    </a>
-                    <a href="case.html" class="case-item">
-                        <h3 class="case-item-title link link-effect"><span>Dust</span></h3>
-                        <div class="case-item-image">
-                            <div class="image-container case-img" style="background-image: url(img/bg-1.jpg);">
-                            </div>
-                        </div>
-                        <div class="case-item-info content__item-title">
-                            <div class="case-item-info-left">Logo design, Branding</div>
-                            <div class="case-item-info-right">2019</div>
-                        </div>
-                    </a>
-                    <a href="case.html" class="case-item">
-                        <h3 class="case-item-title link link-effect"><span>Strata</span></h3>
-                        <div class="case-item-image">
-                            <div class="image-container case-img" style="background-image: url(img/bg-1.jpg);">
-                            </div>
-                        </div>
-                        <div class="case-item-info content__item-title">
-                            <div class="case-item-info-left">Web design, animation</div>
-                            <div class="case-item-info-right">2019</div>
-                        </div>
-                    </a>
-                    <a href="case.html" class="case-item">
-                        <h3 class="case-item-title link link-effect"><span>Maya Delia</span></h3>
-                        <div class="case-item-image">
-                            <div class="image-container case-img" style="background-image: url(img/bg-1.jpg);">
-                            </div>
-                        </div>
-                        <div class="case-item-info content__item-title">
-                            <div class="case-item-info-left">Web design, animation</div>
-                            <div class="case-item-info-right">2019</div>
-                        </div>
-                    </a>
-                    <a href="case.html" class="case-item">
-                        <h3 class="case-item-title link link-effect"><span>Drawing</span></h3>
-                        <div class="case-item-image">
-                            <div class="image-container case-img" style="background-image: url(img/bg-1.jpg);">
-                            </div>
-                        </div>
-                        <div class="case-item-info content__item-title">
-                            <div class="case-item-info-left">Web design, animation</div>
-                            <div class="case-item-info-right">2019</div>
-                        </div>
-                    </a>
-
+                    {{/each}}
                 </div>
             </div>
         </div>

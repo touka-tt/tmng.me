@@ -1,20 +1,3 @@
-<script src="js/jquery.min.js"></script>
-<script>
-    var setNight = localStorage.getItem("night");
-
-    var versionChangeLink = $(".mode-link a"),
-            dayText = versionChangeLink.attr("data-day-text"),
-            nightText = versionChangeLink.attr("data-night-text");
-
-    if (setNight) {
-        $("body").addClass("dark");
-        versionChangeLink.children("span").text(nightText);
-        versionChangeLink.attr("data-title", nightText);
-    }
-</script>
-<script src="js/polyfill.min.js"></script>
-<script src="js/device.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/scroll.js"></script>
-<script src="js/scripts.js"></script>
+{{#each page.common.js}}
+    <script src="{{this}}"></script>
+{{/each}}
