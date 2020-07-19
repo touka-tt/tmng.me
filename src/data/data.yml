@@ -27,11 +27,11 @@ common:
     - title: Home
       url: /
     - title: About
-      url: /about
-    - title: Project
-      url: /project
+      url: /about.html
+    - title: Projects
+      url: /projects.html
     - title: Schedule
-      url: /shcedule
+      url: /shcedule.html
   socialLink:
     - title: Twitter
       url: https://twitter.com/touka_tt
@@ -39,46 +39,61 @@ common:
       url: https://www.facebook.com/takayuki.tominaga
 
 project:
-  - doc: case.html
-    title: hoge
-    img: img/bg-1.jpg
-    year: 2019
+  - doc: /tdoh_hadoh.html
+    title: THE DAY OF HARDCORE
+    img: img/pj/tdoh_hadoh/flyer.jpg
+    year: 2020
+    tag:
+      - VJ
+      - Flyer design
+  - doc: /anjunadeep.html
+    title: Anjunadeep11 Release Party
+    img: img/pj/anjunadeep11/anjunadeep11.jpg
+    year: 2020
+    tag:
+      - VJ
+      - Flyer design
+      - Trailer movie
+  - doc: /huub.html
+    title: Huub
+    img: img/pj/huub/huub-top.jpg
+    year: 2020
+    tag:
+      - Organize
+      - VJ
+      - Web design
+      - Infrastructure
+  - doc: /dendra.html
+    title: DENDRA! Reincarnation
+    img: img/pj/dendra/dendra-top.jpg
+    year: 2020
     tag:
       - Web design
-      - animation
-  - doc: case.html
-    title: fuga
-    img: img/bg-1.jpg
+  - doc: /ibb0209.html
+    title: '#IBB0209'
+    img: img/pj/ibb0209/flyer.jpg
+    year: 2020
+    tag:
+      - VJ
+      - Flyer design
+  - doc: /tgd.html
+    title: Tokyo Gabberdisco
+    img: img/pj/tgd/flyer_front.jpg
     year: 2019
     tag:
-      - Web design
-      - animation
-  - doc: case.html
-    title: Diamond
-    img: img/bg-1.jpg
+      - VJ
+      - Flyer design
+  - doc: /galacticera.html
+    title: Galactic Era
+    img: img/pj/galacticera/galactic-era3.jpg
     year: 2019
     tag:
-      - Web design
-      - animation
-  - doc: case.html
-    title: Diamond
-    img: img/bg-1.jpg
+      - Music video
+  - doc: /gravity.html
+    title: Gravity
+    img: img/pj/gravity/flyer_front.jpg
     year: 2019
     tag:
-      - Web design
-      - animation
-  - doc: case.html
-    title: Diamond
-    img: img/bg-1.jpg
-    year: 2019
-    tag:
-      - Web design
-      - animation
-  - doc: case.html
-    title: Diamond
-    img: img/bg-1.jpg
-    year: 2019
-    tag:
-      - Web design
-      - animation
+      - VJ
+      - Flyer design
 

@@ -1,0 +1,58 @@
+<body class="projects-page">
+<main class="main">
+    {{>hm_icon}}
+    <div class="container" data-scroll>
+        {{>logo}}
+        <header class="header projects-header">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="header-title">Projects</div>
+                    <div class="header-info">
+                        <div class="awards">16 awards on Behance</div>
+                        <div class="count"><span id="js-count" class="span-count">{{#get_length page.project}}{{/get_length}}</span> cases’</div>
+                        <div class="date">Updated: July 20</div>
+                    </div>
+                    <div class="scroll-word link change link-effect"><span class="change-span">Scroll</span></div>
+                </div>
+            </div>
+        </header>
+        <div class="cases" id="cases">
+            <div class="wrap">
+                <div class="wrap_float content">
+                    {{#each page.project}}
+                    <a href="{{this.doc}}" class="case-item">
+                        <h3 class="case-item-title link link-effect"><span>{{this.title}}</span></h3>
+                        <div class="case-item-image">
+                            <div class="image-container case-img" style="background-image: url({{this.img}});">
+                            </div>
+                        </div>
+                        <div class="case-item-info content__item-title">
+                            <div class="case-item-info-left">{{#each this.tag}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</div>
+                            <div class="case-item-info-right">{{this.year}}</div>
+                        </div>
+                    </a>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        <div class="quotes-section" id="quotes-section">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="quote-row quote-row-1"><i>More works are coming soon…</i> More works are coming soon…</div>
+                    <div class="quote-row quote-row-2">More works are coming soon… <i>More works are coming soon…</i> </div>
+                </div>
+            </div>
+        </div>
+        {{>footer}}
+    </div>
+    {{>hm_menu}}
+</main>
+
+<div class="full-video" style="display: none;">
+    <video controls class="fullscreen-video" id="full-video">
+        <source src="video/long.mp4" type="video/mp4">
+    </video>
+</div>
+{{>common_meta}}
+
+</body>

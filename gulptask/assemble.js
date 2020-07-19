@@ -21,6 +21,10 @@ app.helper('each_upto', function (ary, max, options) {
     return result.join('');
 });
 
+app.helper('get_length', function (obj) {
+    return obj.length;
+});
+
 gulp.task('load', function (done) {
     app.partials('src/partials/*.hbs')
     app.layouts('src/layouts/common.hbs')
@@ -42,7 +46,6 @@ gulp.task('assemble', gulp.series('less', gulp.parallel('load'), function () {
         .pipe(plumber())
         .pipe(app.renderFile({layout: 'common', page: pageData}))
         .pipe(htmlmin({collapseWhitespace: true, minifyJS: true, removeComments: true}))
-        .pipe(rename({basename: 'index'}))
         .pipe(extname('.html'))
         .pipe(app.dest('dist/'))
 }))

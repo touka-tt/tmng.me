@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "assemble": "^0.24.3",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.10",
     "clean-css": ">=4.1.11",
     "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
