@@ -21,6 +21,16 @@ app.helper('each_upto', function (ary, max, options) {
     return result.join('');
 });
 
+app.helper('each_from', function (ary, from, options) {
+    if (!ary || ary.length === 0)
+        return options.inverse(this);
+
+    let result = [];
+    for (let i = from; i < ary.length; ++i)
+        result.push(options.fn(ary[i]));
+    return result.join('');
+});
+
 app.helper('get_length', function (obj) {
     return obj.length;
 });

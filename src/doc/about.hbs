@@ -1,0 +1,165 @@
+<body class="case-page">
+<main class="main">
+    {{>hm_icon}}
+    <div class="container" data-scroll>
+        {{>logo}}
+        <header class="header about-header">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <h1 class="header-title">I’m {{page.common.author}}</h1>
+                    <div class="header-info">
+                        <div class="case-tags">
+                            {{#each page.about.skill}}
+                                <span>{{this}}{{#unless @last}},{{/unless}}</span>
+                            {{/each}}
+                        </div>
+                        <div class="date">2011 – 2020</div>
+                    </div>
+                    <div class="scroll-word link change link-effect"><span class="change-span">Scroll</span></div>
+                </div>
+            </div>
+        </header>
+        <div class="about-section right-column">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="wp-content">
+                        <p>This is me</p>
+                        <img src="img/bg-2.jpg" alt="">
+                        <p>
+                            I work with companies, brands, startups, agencies and services
+                            <br>
+                            <span class="small-grey">I act as a reliable partner and experienced player</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="author-quote js-effect">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <span>The result of my work</span> <span>— Groovy VJ's have earned me a reputation in the Rave scene.</span>
+                </div>
+            </div>
+        </div>
+        <div class="directions right-column js-effect">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="block_title">Directions:</div>
+                    <div class="section_content">
+                        <ul>
+                            {{#each_upto page.about.skill 4}}
+                                <li>{{this}}</li>
+                            {{/each_upto}}
+                        </ul>
+                        <ul>
+                            {{#each_from page.about.skill 4}}
+                                <li>{{this}}</li>
+                            {{/each_from}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="equipments js-effect">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="block_title sub_block_title">Equipments:</div>
+                    <div class="section_content">
+                        <div class="hard_soft">
+                            <div class="sub_block_title">Hardware:</div>
+                            <ul>
+                                {{#each page.about.equipment.hardware}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                        <div class="hard_soft">
+                            <div class="sub_block_title">Software:</div>
+                            <ul>
+                                {{#each page.about.equipment.software}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stagedPlace right-column js-effect">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="block_title">Staged Place:</div>
+                    <div class="section_content">
+                        <ul>
+                            {{#each_upto page.about.stagedPlace 4}}
+                                <li>{{this.venue}}<span>{{#each this.floor}}{{this}}{{#unless @last}}
+                                    , {{/unless}}{{/each}}</span></li>
+                            {{/each_upto}}
+                        </ul>
+                        <ul>
+                            {{#each_from page.about.stagedPlace 4}}
+                                <li>{{this.venue}}</li>
+                            {{/each_from}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-section case-video js-effect">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="video-block">
+                        <div class="video-container">
+                            <div class="video" id="video-preload" data-video="video/short.mp4"></div>
+                        </div>
+                        <div class="play-btn" data-video="video/long.mp4"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-section right-column">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="wp-content">
+                        <p>
+                            I have worked with major companies <br>throughout my career
+                            <br>
+                            <span class="small-grey">Among my clients, companies:</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="other-projects" id="other-projects">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="arrows">
+                        <div class="arrow prev"></div>
+                        <div class="arrow next"></div>
+                    </div>
+                    <div class="items" id="other-projects-items" data-scroll="0">
+                        {{#each page.project}}
+                            <a href="{{this.doc}}" class="item">
+                                <div class="_title">{{this.short}}</div>
+                            </a>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{>footer}}
+    </div>
+    {{>hm_menu}}
+</main>
+
+<div class="full-video" style="display: none;">
+    <video controls class="fullscreen-video" id="full-video">
+        <source src="video/long.mp4" type="video/mp4">
+    </video>
+</div>
+{{>common_meta}}
+
+</body>

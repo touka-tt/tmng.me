@@ -1,5 +1,6 @@
 common:
   title: TMNG.
+  author: Takayuki Tominaga
   css:
     - css/slick.css
     - css/style.min.css
@@ -38,9 +39,48 @@ common:
     - title: Facebook
       url: https://www.facebook.com/takayuki.tominaga
 
+about:
+  skill:
+    - Web Design
+    - Graphic Design
+    - VJ
+    - Motion Graphics
+    - 3GCG
+    - Photographic
+    - Broadcast Operation
+    - Software Engineering
+  equipment:
+    hardware:
+      - Roland V-1HD
+      - Nikon Z6
+      - XDJ-1000mk2 x 2
+      - DJM-750mk2
+      - PLX-1000 x 2
+    software:
+      - VDMX5
+      - MadMapper
+      - Aftereffects
+      - Photoshop
+      - Illustrator
+      - Lightroom
+      - Cinema4D
+  stagedPlace:
+    - venue: ageHa
+      floor:
+        - ARENA
+        - ISLAND
+        - BOX
+    - venue: WOMB
+    - venue: SOUND MUSEUM VISION
+    - venue: Club asia
+    - venue: Circus Tokyo
+    - venue: Akihabara Mogura
+    - venue: etc.
+
 project:
   - doc: /tdoh_hadoh.html
     title: THE DAY OF HARDCORE
+    short: TDOH
     img: img/pj/tdoh_hadoh/flyer.jpg
     year: 2020
     tag:
@@ -48,6 +88,7 @@ project:
       - Flyer design
   - doc: /anjunadeep.html
     title: Anjunadeep11 Release Party
+    short: Anjunadeep
     img: img/pj/anjunadeep11/anjunadeep11.jpg
     year: 2020
     tag:
@@ -56,6 +97,7 @@ project:
       - Trailer movie
   - doc: /huub.html
     title: Huub
+    short: Huub
     img: img/pj/huub/huub-top.jpg
     year: 2020
     tag:
@@ -65,12 +107,14 @@ project:
       - Infrastructure
   - doc: /dendra.html
     title: DENDRA! Reincarnation
+    short: Dendra!
     img: img/pj/dendra/dendra-top.jpg
     year: 2020
     tag:
       - Web design
   - doc: /ibb0209.html
     title: '#IBB0209'
+    short: ibb0209
     img: img/pj/ibb0209/flyer.jpg
     year: 2020
     tag:
@@ -78,6 +122,7 @@ project:
       - Flyer design
   - doc: /tgd.html
     title: Tokyo Gabberdisco
+    short: TGD
     img: img/pj/tgd/flyer_front.jpg
     year: 2019
     tag:
@@ -85,12 +130,14 @@ project:
       - Flyer design
   - doc: /galacticera.html
     title: Galactic Era
+    short: Galactic
     img: img/pj/galacticera/galactic-era3.jpg
     year: 2019
     tag:
       - Music video
   - doc: /gravity.html
     title: Gravity
+    short: Gravity
     img: img/pj/gravity/flyer_front.jpg
     year: 2019
     tag:
