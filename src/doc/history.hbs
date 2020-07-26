@@ -1,0 +1,41 @@
+<body class="case-page">
+<main class="main">
+    {{>hm_icon}}
+    <div class="container" data-scroll>
+        {{>logo}}
+        <header class="header about-header">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <h1 class="header-title">My Performance History</h1>
+                    <div class="scroll-word link change link-effect"><span class="change-span">Scroll</span></div>
+                </div>
+            </div>
+        </header>
+        <div class="schedule schedule-section">
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="wp-content">
+                        <p>
+                            Here's my performance history since 2018.
+                        </p>
+                        {{#each page.history}}{{#each this.months}}
+                            <div class="wp-content">
+                                <h3>{{../year}}.{{#completion_date month}}{{this}}{{/completion_date}}</h3>
+                                <ul class="wp-content">
+                                    {{#each this.days}}
+                                        <li>{{#if this.event.url}}<a href="{{this.event.url}}">{{/if}}{{../../year}}.{{#completion_date ../month}}{{this}}{{/completion_date}}.{{#completion_date day}}{{this}}{{/completion_date}} {{this.event.title}}{{#if this.event.url}}</a>{{/if}}</li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        {{/each}}{{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{>footer}}
+    </div>
+    {{>hm_menu}}
+</main>
+{{>common_meta}}
+
+</body>

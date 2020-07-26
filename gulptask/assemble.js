@@ -35,6 +35,13 @@ app.helper('get_length', function (obj) {
     return obj.length;
 });
 
+app.helper('completion_date', function (obj) {
+    if (obj < 10) {
+        return '0' + obj
+    }
+    return obj
+})
+
 gulp.task('load', function (done) {
     app.partials('src/partials/*.hbs')
     app.layouts('src/layouts/common.hbs')

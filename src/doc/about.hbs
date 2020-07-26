@@ -26,9 +26,9 @@
                         <p>This is me</p>
                         <img src="img/bg-2.jpg" alt="">
                         <p>
-                            I work with companies, brands, startups, agencies and services
+                            I work as a VJ at many events.
                             <br>
-                            <span class="small-grey">I act as a reliable partner and experienced player</span>
+                            <span class="small-grey">I don't just put out the visuals, I create the space and the event as a totality.</span>
                         </p>
 
                     </div>
@@ -38,7 +38,7 @@
         <div class="author-quote js-effect">
             <div class="wrap">
                 <div class="wrap_float">
-                    <span>The result of my work</span> <span>— Groovy VJ's have earned me a reputation in the Rave scene.</span>
+                    <span>The result of my work</span> <span>— My Groovy VJs are highly regarded in the Rave scene.</span>
                 </div>
             </div>
         </div>
@@ -119,16 +119,20 @@
                 </div>
             </div>
         </div>
-        <div class="about-section right-column">
+        <div class="primaryEvents about-section right-column">
             <div class="wrap">
                 <div class="wrap_float">
                     <div class="wp-content">
                         <p>
-                            I have worked with major companies <br>throughout my career
+                            I have directed many events during my VJ career.
                             <br>
-                            <span class="small-grey">Among my clients, companies:</span>
+                            <span class="small-grey">Primary events:</span>
                         </p>
-
+                        <ul>
+                            {{#each page.about.direction}}
+                                <li>{{this.eventDate.year}}.{{#completion_date this.eventDate.month}}{{this}}{{/completion_date}}.{{#completion_date this.eventDate.date}}{{/completion_date}} {{this.event}} at {{this.venue}}</li>
+                            {{/each}}
+                        </ul>
                     </div>
                 </div>
             </div>
