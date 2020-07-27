@@ -38,7 +38,8 @@
         <div class="author-quote js-effect">
             <div class="wrap">
                 <div class="wrap_float">
-                    <span>The result of my work</span> <span>— My Groovy VJs are highly regarded in the Rave scene.</span>
+                    <span>The result of my work</span>
+                    <span>— My Groovy VJs are highly regarded in the Rave scene.</span>
                 </div>
             </div>
         </div>
@@ -130,7 +131,9 @@
                         </p>
                         <ul>
                             {{#each page.about.direction}}
-                                <li>{{this.eventDate.year}}.{{#completion_date this.eventDate.month}}{{this}}{{/completion_date}}.{{#completion_date this.eventDate.date}}{{/completion_date}} {{this.event}} at {{this.venue}}</li>
+                                <li>{{this.eventDate.year}}.{{#completion_date
+                                        this.eventDate.month}}{{this}}{{/completion_date}}.{{#completion_date
+                                        this.eventDate.date}}{{/completion_date}} {{this.event}} at {{this.venue}}</li>
                             {{/each}}
                         </ul>
                     </div>

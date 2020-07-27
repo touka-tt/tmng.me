@@ -1,0 +1,98 @@
+<body class="case-page">
+<main class="main">
+    {{>hm_icon}}
+    <div class="container" data-scroll>
+        {{>logo}}
+        {{#findPj page.project 'TDOH'}}
+            <header class="header case-header">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <h1 class="header-title">{{this.0.title}}</h1>
+                        <div class="header-info">
+                            <div class="case-tags">
+                                {{#each this.0.tag}}
+                                    <span>{{this}}</span>
+                                {{/each}}
+                            </div>
+                            <div class="date">{{this.0.year}}</div>
+                        </div>
+                        <div class="scroll-word link change link-effect"><span class="change-span">Scroll</span></div>
+                    </div>
+                </div>
+            </header>
+            <div class="case-content">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <div class="wp-content">
+                            <picture>
+                                <img src="{{this.0.img}}" alt="" class="fullscreen">
+                            </picture>
+                            <p>{{this.0.description}}</p>
+                            <span class="img-title">{{#each this.0.tag}}{{this}}{{#unless @last}}
+                                , {{/unless}}{{/each}}</span>
+                            {{#if this.0.subimg}}{{#each this.0.subimg}}
+                                <picture>
+                                    <img src="{{this}}" alt="" class="fullscreen">
+                                </picture>
+                            {{/each}}{{/if}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{#if this.0.video}}
+                <div class="quotes-section single-quote animation js-effect">
+                    <div class="wrap">
+                        <div class="wrap_float">
+                            <div class="quote-row quote-row-1">Animation – <i>Animation –</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-section case-video js-effect">
+                    <div class="wrap">
+                        <div class="wrap_float">
+                            <div class="video-block">
+                                <div class="video-container">
+                                    <div class="video" id="video-preload" data-video="{{this.0.video}}"></div>
+                                </div>
+                                <div class="play-btn" data-video="{{this.0.video}}"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/if}}
+            <div class="case-authors">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        {{#each this.0.persons}}
+                            <div class="col">
+                                <div class="_title">{{this.role}}</div>
+                                <a href="{{this.url}}" class="name">{{this.name}}</a>
+                            </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+            <div class="more-projects next-project">
+                <div class="wrap">
+                    <div class="wrap_float">
+                        <div class="_title">Next Projects:</div>
+                        <a href="{{this.1.doc}}" class="cases-link"
+                           data-text="{{this.1.short}}"><span>{{this.1.short}}</span></a>
+                    </div>
+                </div>
+            </div>
+            {{#if this.0.video}}
+                <div class="full-video" style="display: none;">
+                    <video controls class="fullscreen-video" id="full-video">
+                        <source src="{{this.0.video}}" type="video/mp4">
+                    </video>
+                </div>
+            {{/if}}
+        {{/findPj}}
+        {{>footer}}
+    </div>
+    {{>hm_menu}}
+</main>
+{{>common_meta}}
+</body>
+

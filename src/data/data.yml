@@ -43,67 +43,129 @@ project:
     title: THE DAY OF HARDCORE
     short: TDOH
     img: img/pj/tdoh_hadoh/flyer.jpg
+    subimg:
+    video:
     year: 2020
     tag:
       - VJ
       - Flyer design
+    persons:
+      - role: client
+        name: M-Project
+        url: https://twitter.com/mproject
+      - role: client
+        name: DJ Sharpnel
+        url: https://twitter.com/sharpnelsound
+    description: |-
+      I designed a flyer for an event to celebrate The Day Of Hardcore(TDOH).
+      In 2020 TDOH will be an online broadcast event and will be entitled "Hadoh Channnel".
+      "Hadoh Channel" is a historical online broadcast event that started in 2006 and it is customary to put an ukiyo-e on the flyer.
+      The TDOH flyer was designed to follow this tradition, but with a modern brush up on the design.
   - doc: /anjunadeep.html
     title: Anjunadeep11 Release Party
     short: Anjunadeep
     img: img/pj/anjunadeep11/anjunadeep11.jpg
+    subimg:
+      - img/pj/anjunadeep11/anjunadeep11-back.jpg
+    video: video/pj/anjunadeep11/anjunadeep.mp4
     year: 2020
     tag:
       - VJ
       - Flyer design
       - Trailer movie
+    persons:
+      - role: client
+        name: Conures
+        url: https://twitter.com/ConuresDJToku
+      - role: direction
+        name: Anjunabeats
+        url: https://anjunabeats.com/
   - doc: /huub.html
     title: Huub
     short: Huub
     img: img/pj/huub/huub-top.jpg
+    subimg:
+    video:
     year: 2020
     tag:
       - Organize
       - VJ
       - Web design
       - Infrastructure
+    persons:
+      - rorle: client
+        name: --
+        url: '#'
   - doc: /dendra.html
     title: DENDRA! Reincarnation
     short: Dendra!
     img: img/pj/dendra/dendra-top.jpg
+    subimg:
+      - img/pj/dendra/dendra-top.jpg
+      - img/pj/dendra/dendra-artist.jpg
+    video: video/pj/dendra/dendra.mp4
     year: 2020
     tag:
       - Web design
+    persons:
+      - role: client
+        name: ATOLS
+        url: http://atols.net/
   - doc: /ibb0209.html
     title: '#IBB0209'
     short: ibb0209
     img: img/pj/ibb0209/flyer.jpg
+    subimg:
+    video:
     year: 2020
     tag:
       - VJ
       - Flyer design
+    persons:
+      - role: client
+        name: itsuki nakanishi
+        url: https://twitter.com/itsukinakanishi
   - doc: /tgd.html
     title: Tokyo Gabberdisco
     short: TGD
     img: img/pj/tgd/flyer_front.jpg
+    subimg:
+    video:
     year: 2019
     tag:
       - VJ
       - Flyer design
+    persons:
+      - role: client
+        name: Lolistyle Gabbers
+        url: https://loligabba.com/
   - doc: /galacticera.html
     title: Galactic Era
     short: Galactic
     img: img/pj/galacticera/galactic-era3.jpg
+    subimg:
+    video:
     year: 2019
     tag:
       - Music video
+    persons:
+      - role: client
+        name: U-hey Seta
+        url: https://twitter.com/___Uhey
   - doc: /gravity.html
     title: Gravity
     short: Gravity
     img: img/pj/gravity/flyer_front.jpg
+    subimg:
+    video:
     year: 2019
     tag:
       - VJ
       - Flyer design
+    persons:
+      - role: client
+        name: M$K
+        url: https://twitter.com/MSK_Quality
 about:
   skill:
     - Web design
