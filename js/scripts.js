@@ -74,7 +74,9 @@ $(document).ready(function(){
         var wordOffset = $("#quotes-section").offset().top;
     }
     
-    var casesOffset = $(".js-after-quotes").offset().top;
+    if ($(".js-after-quotes").length) {
+        var casesOffset = $(".js-after-quotes").offset().top;
+    }
     
     var contentH = $(window).innerHeight();
     var topPanelHeight = $("#top-panel").innerHeight();
@@ -403,6 +405,11 @@ $(document).ready(function(){
             var targetCoords = target.getBoundingClientRect();
             var xCoord = e.clientX - targetCoords.left;
             var yCoord = e.clientY - targetCoords.top;
+            
+            $(".dot").css({
+              left: xCoord,
+                top: yCoord
+            });
         }
     });
     //cursor
@@ -607,7 +614,10 @@ $(document).ready(function(){
 //preload video
 window.onload = function () { 
 var videoShort = document.getElementById("video-preload");
-    var videoLink = videoShort.getAttribute('data-video');
-    videoShort.innerHTML = '<video loop autoplay muted playsinline class="fullscreen-bg__video lazy-hidden" id="video1"><source src="'+videoLink+'" type="video/mp4"></video>';
+    
+    if(videoShort) {
+        var videoLink = videoShort.getAttribute('data-video');
+        videoShort.innerHTML = '<video loop autoplay muted playsinline class="fullscreen-bg__video lazy-hidden" id="video1"><source src="'+videoLink+'" type="video/mp4"></video>';
+    }
 }
 //preload video
