@@ -93,7 +93,7 @@ project:
       - img/pj/huub/flyer.jpg
       - img/pj/huub/huub-menu.jpg
       - img/pj/huub/huub-about.jpg
-    video:
+    video: video/pj/huub/huub.mp4
     year: 2020
     tag:
       - Organize
