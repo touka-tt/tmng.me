@@ -90,6 +90,9 @@ project:
     short: Huub
     img: img/pj/huub/huub-top.jpg
     subimg:
+      - img/pj/huub/flyer.jpg
+      - img/pj/huub/huub-menu.jpg
+      - img/pj/huub/huub-about.jpg
     video:
     year: 2020
     tag:
@@ -98,9 +101,9 @@ project:
       - Web design
       - Infrastructure
     persons:
-      - rorle: client
-        name: --
-        url: '#'
+      - role: client
+        name: Myself
+        url:
     description: |-
       I organized the online event, built the broadcast infrastructure, designed the website and flyer, and did the VJ.
       I collaborated with artists from around the world in a live broadcast to structure the event.
@@ -119,6 +122,10 @@ project:
       - role: client
         name: ATOLS
         url: http://atols.net/
+    description: |-
+      DENDRA! Reincarnation was a huge event held at SOUND MUSEUM VISION.
+      I designed and programmed the official website.
+      The web design was meant to capture the chaotic feeling of many artists coming together, along with a key visual by WORUZ.
   - doc: ibb0209.html
     title: '#IBB0209'
     short: ibb0209
@@ -133,6 +140,9 @@ project:
       - role: client
         name: itsuki nakanishi
         url: https://twitter.com/itsukinakanishi
+    description: |-
+      #IBB0209 is a birthday bash for DJ itsuki nakanishi.
+      The client asked for a visual of all the performers, so we designed this bash so that it wouldn't have too much information on the paper.
   - doc: tgd.html
     title: Tokyo Gabberdisco
     short: TGD
@@ -147,12 +157,16 @@ project:
       - role: client
         name: Lolistyle Gabbers
         url: https://loligabba.com/
+    description: |-
+      Tokyo Gabberdisco is a hardtek party held at Circus Tokyo.
+      I designed the flyer for this event, featuring the Gabberdisco label.
+      Based on the Gabberdisco jacket, I arranged a mirror ball, a Gabberdisco motif, in a Japanese style.
   - doc: /galacticera.html
     title: Galactic Era
     short: Galactic
     img: img/pj/galacticera/galactic-era3.jpg
     subimg:
-    video:
+    video: video/pj/galacticera/galactic-era.mp4
     year: 2019
     tag:
       - Music video
@@ -160,6 +174,10 @@ project:
       - role: client
         name: U-hey Seta
         url: https://twitter.com/___Uhey
+    description: |-
+      I created a video for a music game called BMS.
+      The entire video was created in Cinema4D, with some X-Particles.
+      This is a study I made while learning how to use Cinema4D.
   - doc: gravity.html
     title: Gravity
     short: Gravity
@@ -174,6 +192,9 @@ project:
       - role: client
         name: M$K
         url: https://twitter.com/MSK_Quality
+    description: |-
+      I made a flyer for an event called Gravity, which is being held in Chiba, Japan.
+      The posters will be displayed in the bar, so I tried to create a high quality design that would not destroy the atmosphere of the bar.
 about:
   skill:
     - Web Design

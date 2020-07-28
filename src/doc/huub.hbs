@@ -1,0 +1,14 @@
+<body class="case-page">
+<main class="main">
+    {{>hm_icon}}
+    <div class="container" data-scroll>
+        {{>logo}}
+        {{#findPj page.project 'Huub'}}
+            {{>case}}
+        {{/findPj}}
+        {{>footer}}
+    </div>
+    {{>hm_menu}}
+</main>
+{{>common_meta}}
+</body>
