@@ -257,7 +257,13 @@ about:
         month: 1
         date: 18
       event: SUSHI feat. MARTEN HØRGER
-      venue: Sound Museum Vision(Gaia)
+      venue: SOUND MUSEUM VISION
+    - eventDate:
+        year: 2020
+        month: 2
+        date: 23
+      event: Xilent + Chime Tokyo show Beginning 6th Anniversary
+      venue: WOMB
     - eventDate:
         year: 2020
         month: 3
