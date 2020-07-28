@@ -169,7 +169,7 @@ project:
         url: https://twitter.com/MSK_Quality
 about:
   skill:
-    - Web design
+    - Web Design
     - Graphic Design
     - VJ
     - Motion Graphics
@@ -181,13 +181,16 @@ about:
     hardware:
       - Roland V-1HD
       - Nikon Z6
+      - DJI Ronin
+      - DJI Osmo Pocket
       - XDJ-1000mk2 x 2
       - DJM-750mk2
       - PLX-1000 x 2
     software:
       - VDMX5
       - MadMapper
-      - Aftereffects
+      - After Effects
+      - Premiere Pro
       - Photoshop
       - Illustrator
       - Lightroom
