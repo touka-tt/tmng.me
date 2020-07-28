@@ -81,6 +81,10 @@ project:
       - role: direction
         name: Anjunabeats
         url: https://anjunabeats.com/
+    description: |-
+      I created a flyer and trailer for the official Japan party of DeepHouse's top label "Anjunadeep".
+      I have expressed the worldliness of Anjunadeep in a simple and clear way.
+      The flyer is designed in the style of Anjunadeep 11's jacket, but with less excessive embellishment.
   - doc: huub.html
     title: Huub
     short: Huub
@@ -97,6 +101,9 @@ project:
       - rorle: client
         name: --
         url: '#'
+    description: |-
+      I organized the online event, built the broadcast infrastructure, designed the website and flyer, and did the VJ.
+      I collaborated with artists from around the world in a live broadcast to structure the event.
   - doc: dendra.html
     title: DENDRA! Reincarnation
     short: Dendra!
