@@ -24,22 +24,23 @@ common:
       img: img/favicons/android-chrome-512x512.png
     - size: 16x16
       img: img/favicons/favicon.ico
+  logo: img/logo.svg
   menu:
     - title: Home
-      url: /
+      url: index.html
     - title: About
-      url: /about.html
+      url: about.html
     - title: Projects
-      url: /projects.html
+      url: projects.html
     - title: Schedule
-      url: /schedule.html
+      url: schedule.html
   socialLink:
     - title: Twitter
       url: https://twitter.com/touka_tt
     - title: Facebook
       url: https://www.facebook.com/takayuki.tominaga
 project:
-  - doc: /tdoh_hadoh.html
+  - doc: tdoh_hadoh.html
     title: THE DAY OF HARDCORE
     short: TDOH
     img: img/pj/tdoh_hadoh/flyer.jpg
@@ -61,7 +62,7 @@ project:
       In 2020 TDOH will be an online broadcast event and will be entitled "Hadoh Channnel".
       "Hadoh Channel" is a historical online broadcast event that started in 2006 and it is customary to put an ukiyo-e on the flyer.
       The TDOH flyer was designed to follow this tradition, but with a modern brush up on the design.
-  - doc: /anjunadeep.html
+  - doc: anjunadeep.html
     title: Anjunadeep11 Release Party
     short: Anjunadeep
     img: img/pj/anjunadeep11/anjunadeep11.jpg
@@ -80,7 +81,7 @@ project:
       - role: direction
         name: Anjunabeats
         url: https://anjunabeats.com/
-  - doc: /huub.html
+  - doc: huub.html
     title: Huub
     short: Huub
     img: img/pj/huub/huub-top.jpg
@@ -96,7 +97,7 @@ project:
       - rorle: client
         name: --
         url: '#'
-  - doc: /dendra.html
+  - doc: dendra.html
     title: DENDRA! Reincarnation
     short: Dendra!
     img: img/pj/dendra/dendra-top.jpg
@@ -111,7 +112,7 @@ project:
       - role: client
         name: ATOLS
         url: http://atols.net/
-  - doc: /ibb0209.html
+  - doc: ibb0209.html
     title: '#IBB0209'
     short: ibb0209
     img: img/pj/ibb0209/flyer.jpg
@@ -125,7 +126,7 @@ project:
       - role: client
         name: itsuki nakanishi
         url: https://twitter.com/itsukinakanishi
-  - doc: /tgd.html
+  - doc: tgd.html
     title: Tokyo Gabberdisco
     short: TGD
     img: img/pj/tgd/flyer_front.jpg
@@ -152,7 +153,7 @@ project:
       - role: client
         name: U-hey Seta
         url: https://twitter.com/___Uhey
-  - doc: /gravity.html
+  - doc: gravity.html
     title: Gravity
     short: Gravity
     img: img/pj/gravity/flyer_front.jpg
