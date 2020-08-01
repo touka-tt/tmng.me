@@ -196,6 +196,9 @@ project:
       I made a flyer for an event called Gravity, which is being held in Chiba, Japan.
       The posters will be displayed in the bar, so I tried to create a high quality design that would not destroy the atmosphere of the bar.
 about:
+  portrait:
+    full: img/tmng-portrait-full.jpg
+    clip: img/tmng-portrait-clip.jpg
   skill:
     - Web Design
     - Graphic Design
@@ -209,7 +212,7 @@ about:
     hardware:
       - Roland V-1HD
       - Nikon Z6
-      - DJI Ronin
+      - DJI Ronin-S
       - DJI Osmo Pocket
       - XDJ-1000mk2 x 2
       - DJM-750mk2
