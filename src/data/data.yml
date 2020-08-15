@@ -199,6 +199,9 @@ about:
   portrait:
     full: img/tmng-portrait-full.jpg
     clip: img/tmng-portrait-clip.jpg
+  promotionVideo:
+    short: video/tmng_short.mp4
+    long: video/tmng_long.mp4
   skill:
     - Web Design
     - Graphic Design
@@ -338,6 +341,18 @@ schedule:
               title: THE DAY OF HARDCORE - HADO CHANNEL EDITION
               venue: Circus Tokyo
               url: https://twitter.com/sharpnelsound/status/1286524725175361537
+          - day: 29
+            event:
+              title: COT presents “summer 2020 OPEN AIR RAVE”
+              venue: ageHa
+              url: https://www.facebook.com/events/2623321087734244
+      - month: 9
+        days:
+          - day: 5
+            event:
+              title: TBA
+              venue:
+              url:
 history:
   - year: 2018
     months:

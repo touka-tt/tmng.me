@@ -21,9 +21,9 @@
                 <div class="wrap_float">
                     <div class="video-block">
                         <div class="video-container">
-                            <div class="video" id="video-preload" data-video="video/short.mp4"></div>
+                            <div class="video" id="video-preload" data-video="{{page.about.promotionVideo.short}}"></div>
                         </div>
-                        <div class="play-btn" data-video="video/long.mp4"><span></span></div>
+                        <div class="play-btn" data-video="{{page.about.promotionVideo.long}}"><span></span></div>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
         <div class="more-projects">
             <div class="wrap">
                 <div class="wrap_float">
-                    <a class="cases-link" href="projects.html" data-text="All projects"><span>All projects</span></a>
+                    <a class="cases-link" href="{{page.common.menu.2.url}}" data-text="All projects"><span>All projects</span></a>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
 
 <div class="full-video" style="display: none;">
     <video controls class="fullscreen-video" id="full-video">
-        <source src="video/long.mp4" type="video/mp4">
+        <source src="{{page.about.promotionVideo.long}}" type="video/mp4">
     </video>
 </div>
 {{>hm_menu}}
