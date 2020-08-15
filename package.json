@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
-    "deploy": "rm -rf node_modules/.cache && rimraf dist && gulp build && touch dist/.nojekyll && gh-pages -d dist -t true"
+    "deploy": "rm -rf node_modules/.cache && rimraf dist && gulp build && touch dist/.nojekyll && cp CNAME dist/  && gh-pages -d dist -t true"
   },
   "author": "",
   "license": "ISC",
