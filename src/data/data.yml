@@ -351,6 +351,11 @@ schedule:
               title: Beginning Online feat. HAUS OF PANDA
               venue: Circus Tokyo
               url: https://twitter.com/beginningtokyo/status/1294952240512262144
+          - day: 22
+            event:
+              title: TBA
+              venue:
+              url:
           - day: 29
             event:
               title: COT presents “summer 2020 OPEN AIR RAVE”
