@@ -353,8 +353,8 @@ schedule:
               url: https://twitter.com/beginningtokyo/status/1294952240512262144
           - day: 22
             event:
-              title: TBA
-              venue:
+              title: LIFE is SAMPLING vol.0.5
+              venue: Club Malcolm
               url:
           - day: 29
             event:
@@ -367,6 +367,16 @@ schedule:
             event:
               title: TBA
               venue:
+              url:
+          - day: 17
+            event:
+              title: TBA
+              venue: MOMENT RAVEROOM
+              url:
+          - day: 19
+            event:
+              title: TBA
+              venue: ageHa
               url:
 history:
   - year: 2018
