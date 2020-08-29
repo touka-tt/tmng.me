@@ -365,8 +365,8 @@ schedule:
         days:
           - day: 5
             event:
-              title: TBA
-              venue:
+              title: Chord
+              venue: Acid Room
               url:
           - day: 17
             event:
