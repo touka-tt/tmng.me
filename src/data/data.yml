@@ -233,6 +233,7 @@ about:
     - venue: ageHa
       floor:
         - ARENA
+        - WATER
         - ISLAND
         - BOX
     - venue: WOMB
@@ -304,6 +305,12 @@ about:
         date: 7
       event: Anjunadeep 11 Release Party
       venue: WOMB
+    - eventDate:
+        year: 2020
+        month: 8
+        date: 29
+      event: COT presents “summer 2020 OPEN AIR RAVE”
+      venue: ageHa(Water)
 schedule:
   - year: 2020
     months:
@@ -367,7 +374,7 @@ schedule:
             event:
               title: Chord
               venue: Acid Room
-              url:
+              url: https://twitter.com/djosamum/status/1293356040096907264?s=20
           - day: 17
             event:
               title: TBA
