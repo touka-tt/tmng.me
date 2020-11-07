@@ -315,26 +315,46 @@ about:
 schedule:
   - year: 2020
     months:
-      - month: 9
+      - month: 11
         days:
+          - day: 7
+            event:
+              title: COLORS
+              venue: SOUND BAR ASOVIVA
+              url:
+          - day: 17
+            event:
+              title: 大納言聖誕祭2020
+              venue: Shibuya Dimension
+              url: http://twvt.me/dainagon2020
+          - day: 30
+            event:
+              title: TBA
+              venue:
+              url:
+      - month: 12
+        days:
+          - day: 4
+            event:
+              title: TBA
+              venue:
+              url:
           - day: 5
             event:
-              title: Chord
-              venue: Acid Room
-              url: https://twitter.com/djosamum/status/1293356040096907264?s=20
-          - day: 15
-            event:
-              title: MOMENT RAVEROOM
-              venue: MOMENT RAVEROOM
+              title: TBA
+              venue:
               url:
-          - day: 19
+          - day: 18
             event:
-              title: Beginning presents BEGINNIN’ FES
-              venue: ageHa
-              url: http://www.ageha.com/schedule/event/?id=329787
-      - month: 10
-        days:
-          - day: 9
+              title: TBA
+              venue:
+              url:
+          - day: 31
+            event:
+              title: TBA
+              venue:
+              url:
+          - day: 31
             event:
               title: TBA
               venue:
@@ -1500,3 +1520,47 @@ history:
               title: COT presents “summer 2020 OPEN AIR RAVE”
               venue: ageHa
               url: https://www.facebook.com/events/2623321087734244
+      - month: 9
+        days:
+          - day: 5
+            event:
+              title: Chord
+              venue: Acid Room
+              url: https://twitter.com/djosamum/status/1293356040096907264?s=20
+          - day: 15
+            event:
+              title: MOMENT RAVEROOM
+              venue: MOMENT RAVEROOM
+              url:
+          - day: 19
+            event:
+              title: Beginning presents BEGINNIN’ FES
+              venue: ageHa
+              url: http://www.ageha.com/schedule/event/?id=329787
+          - day: 27
+            event:
+              title: kosendj#26
+              venue: Waseda Sabaco
+              url: https://kosendj-bu.in
+      - month: 10
+        days:
+          - day: 9
+            event:
+              title: RIP
+              venue: club asia
+              url: https://twitter.com/RIP_UKG/status/1306911847665119232
+          - day: 10
+            event:
+              title: Beginning Online with AKEOS
+              venue: Circus Tokyo
+              url: https://twitter.com/beginningtokyo/status/1313072279870345220
+          - day: 16
+            event:
+              title: Midnight Incite
+              venue: Shibuya Dimension
+              url: https://twitter.com/0ha3ru1ka4/status/1313318112561750019
+          - day: 23
+            event:
+              title: Beginning HOUSE / BASS HOUSE Special
+              venue: WOMB
+              url: https://twitter.com/beginningtokyo/status/1313433835120390145
