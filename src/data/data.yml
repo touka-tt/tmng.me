@@ -359,6 +359,20 @@ schedule:
               title: TBA
               venue:
               url:
+  - year: 2021
+    months:
+      - month: 1
+        days:
+          - day: 2
+            event:
+              title: OHR2021 - Sounds of Liberation
+              venue: Twitch
+              url: https://www.facebook.com/events/671512833481384/
+          - day: 3
+            event:
+              title: OHR2021 - Sounds of Liberation
+              venue: Twitch
+              url: https://www.facebook.com/events/671512833481384/
 history:
   - year: 2018
     months:
