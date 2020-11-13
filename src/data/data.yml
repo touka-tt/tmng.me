@@ -322,6 +322,11 @@ schedule:
               title: COLORS
               venue: SOUND BAR ASOVIVA
               url:
+          - day: 15
+            event:
+              title: Dugem Rising
+              venue: Shibuya Dimension
+              url: https://twitter.com/totsumal/status/1327228664631545858?s=20
           - day: 17
             event:
               title: 大納言聖誕祭2020
@@ -329,9 +334,9 @@ schedule:
               url: http://twvt.me/dainagon2020
           - day: 30
             event:
-              title: TBA
-              venue:
-              url:
+              title: EMONING by Beginning
+              venue: Circus Tokyo
+              url: https://twitter.com/beginningtokyo/status/1326117412417142785?s=20
       - month: 12
         days:
           - day: 4
@@ -344,7 +349,27 @@ schedule:
               title: TBA
               venue:
               url:
+          - day: 12
+            event:
+              title: TBA
+              venue:
+              url:
+          - day: 13
+            event:
+              title: Need For Resistance
+              venue: clubasia
+              url: https://twitter.com/DJ_TAIYO/status/1327206144612331522?s=20
           - day: 18
+            event:
+              title: midnight incite
+              venue: Shibuya Dimension
+              url: https://twitter.com/0ha3ru1ka4/status/1317118971284385794
+          - day: 19
+            event:
+              title: TBA
+              venue:
+              url:
+          - day: 26
             event:
               title: TBA
               venue:
