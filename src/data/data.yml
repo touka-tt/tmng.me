@@ -40,6 +40,25 @@ common:
     - title: Facebook
       url: https://www.facebook.com/takayuki.tominaga
 project:
+  - doc: need_for_resistance.html
+    title: NEED FOR RESISTANCE
+    short: NFR
+    img: img/pj/nfr/flyer.jpg
+    subimg:
+      - img/pj/nfr/instagram.jpg
+    video:
+    year: 2020
+    tag:
+      - VJ
+      - Flyer design
+    persons:
+      - role: client
+        name: clubasia
+        url: https://clubasia.jp/
+    description: |-
+      I designed the flyer for the Need For Resistance hard-groove party at clubasia.
+      I bought a camera lens, the NIKKOR Z 14-24mm f/2.8 S, and I wanted to create a work of art with it.
+      I took this photo in Akihabara early in the morning and processed it in a post-apocalypse style.
   - doc: tdoh_hadoh.html
     title: THE DAY OF HARDCORE
     short: TDOH
