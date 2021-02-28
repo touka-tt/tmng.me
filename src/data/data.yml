@@ -40,6 +40,26 @@ common:
     - title: Facebook
       url: https://www.facebook.com/takayuki.tominaga
 project:
+  - doc: mincite-au.html
+    title: 'Ambivalent: Underground'
+    short: mincite
+    img: img/pj/mincite-au/flyer.jpg
+    subimg:
+      - img/pj/mincite-au/photo.jpg
+    video:
+    year: 2021
+    tag:
+      - VJ
+      - Flyer design
+      - Photographic
+    persons:
+      - role: client
+        name: '-'
+        url: '-'
+    description: |-
+      midnight incite is a club event co-hosted by myself and DJ AkuaMarine.
+      I designed the flyer for the event. In other words, it's like a study.
+      The photo was taken by me at Nishi-Shinjuku Junction.
   - doc: need_for_resistance.html
     title: NEED FOR RESISTANCE
     short: NFR
@@ -51,6 +71,7 @@ project:
     tag:
       - VJ
       - Flyer design
+      - Photographic
     persons:
       - role: client
         name: clubasia
@@ -332,91 +353,50 @@ about:
       event: COT presents “summer 2020 OPEN AIR RAVE”
       venue: ageHa(Water)
 schedule:
-  - year: 2020
-    months:
-      - month: 11
-        days:
-          - day: 7
-            event:
-              title: COLORS
-              venue: SOUND BAR ASOVIVA
-              url:
-          - day: 15
-            event:
-              title: Dugem Rising
-              venue: Shibuya Dimension
-              url: https://twitter.com/totsumal/status/1327228664631545858?s=20
-          - day: 17
-            event:
-              title: 大納言聖誕祭2020
-              venue: Shibuya Dimension
-              url: http://twvt.me/dainagon2020
-          - day: 30
-            event:
-              title: EMONING by Beginning
-              venue: Circus Tokyo
-              url: https://twitter.com/beginningtokyo/status/1326117412417142785?s=20
-      - month: 12
-        days:
-          - day: 4
-            event:
-              title: TBA
-              venue:
-              url:
-          - day: 5
-            event:
-              title: TBA
-              venue:
-              url:
-          - day: 12
-            event:
-              title: TBA
-              venue:
-              url:
-          - day: 13
-            event:
-              title: Need For Resistance
-              venue: clubasia
-              url: https://twitter.com/DJ_TAIYO/status/1327206144612331522?s=20
-          - day: 18
-            event:
-              title: midnight incite
-              venue: Shibuya Dimension
-              url: https://twitter.com/0ha3ru1ka4/status/1317118971284385794
-          - day: 19
-            event:
-              title: TBA
-              venue:
-              url:
-          - day: 26
-            event:
-              title: TBA
-              venue:
-              url:
-          - day: 31
-            event:
-              title: TBA
-              venue:
-              url:
-          - day: 31
-            event:
-              title: TBA
-              venue:
-              url:
   - year: 2021
     months:
-      - month: 1
+      - month: 3
         days:
-          - day: 2
+          - day: 13
             event:
-              title: OHR2021 - Sounds of Liberation
-              venue: Twitch
+              title: kosendj-bu#28
+              venue: Waseda Sabaco
+              role:
+                - DJ
+                - VJ
+              url: https://kosendj-bu.in
+          - day: 15
+            event:
+              title: midnight incite presents Ambivalent Underground
+              venue: Shibuya Dimension
+              role:
+                - DJ
+                - Flyer Design
               url: https://www.facebook.com/events/671512833481384/
+          - day: 20
+            event:
+              title: TBA(Online Event)
+              venue:
+              role:
+              url:
+      - month: 4
+        days:
+          - day: 16
+            event:
+              title: Beginning presents Habstrakt Virtual Set Show
+              venue: WOMB
+              role:
+                - VJ
+              url: https://www.womb.co.jp/event/2021/04/16/studio-w-beginning-presents-habstrakt-virtual-set-show/
+      - month: 5
+        days:
           - day: 3
             event:
-              title: OHR2021 - Sounds of Liberation
-              venue: Twitch
-              url: https://www.facebook.com/events/671512833481384/
+              title: TBA
+              venue: ageHa
+              role:
+                - VJ
+              url:
 history:
   - year: 2018
     months:
@@ -1622,3 +1602,125 @@ history:
               title: Beginning HOUSE / BASS HOUSE Special
               venue: WOMB
               url: https://twitter.com/beginningtokyo/status/1313433835120390145
+      - month: 11
+        days:
+          - day: 7
+            event:
+              title: COLORS
+              venue: SOUND BAR ASOVIVA
+              url:
+              - day: 15
+                event:
+                  title: Dugem Rising
+                  venue: Shibuya Dimension
+                  url: https://twitter.com/totsumal/status/1327228664631545858?s=20
+              - day: 17
+                event:
+                  title: 大納言聖誕祭2020
+                  venue: Shibuya Dimension
+                  url: http://twvt.me/dainagon2020
+              - day: 30
+                event:
+                  title: EMONING by Beginning
+                  venue: Circus Tokyo
+                  url: https://twitter.com/beginningtokyo/status/1326117412417142785?s=20
+      - month: 12
+        days:
+          - day: 4
+            event:
+              title: studio W-“THE LISTEN” Vol.4 feat. STUDIO APARTMENT 20th Anniversary
+              venue: WOMB
+              role:
+                - VJ
+              url: https://www.womb.co.jp/event/2020/12/04/studio-w-the-listen-vol-4%EF%BB%BF-feat-studio-apartment-20th-anniversary-studio-apartment-new-album-2020-release-party-supported-by-cocalero-led-supported-by/
+          - day: 12
+            event:
+              title: F's trunk
+              venue: Waseda Sabaco
+              role:
+                - VJ
+              url:
+          - day: 13
+            event:
+              title: Need For Resistance
+              venue: clubasia
+              role:
+                - VJ
+                - Flyer Design
+              url: https://twitter.com/DJ_TAIYO/status/1327206144612331522?s=20
+          - day: 18
+            event:
+              title: midnight incite
+              venue: Shibuya Dimension
+              role:
+                - DJ
+              url: https://twitter.com/0ha3ru1ka4/status/1317118971284385794
+          - day: 19
+            event:
+              title: GRAVITY大忘年会
+              venue: Bar&Lounge NUTS
+              role:
+                - VJ
+              url:
+          - day: 26
+            event:
+              title: kosendj-bu#27
+              venue: Waseda Sabaco
+              role:
+                - VJ
+              url: https://kosendj-bu.in
+          - day: 31
+            event:
+              title: Beginning Year End 2020
+              venue: Circus Tokyo
+              role:
+                - VJ
+              url:
+  - year: 2021
+    months:
+      - month: 1
+        days:
+          - day: 2
+            event:
+              title: OHR2021 - Sounds of Liberation
+              venue: Twitch
+              role:
+                - VJ
+              url: https://www.facebook.com/events/671512833481384/
+          - day: 3
+            event:
+              title: OHR2021 - Sounds of Liberation
+              venue: Twitch
+              role:
+                - VJ
+              url: https://www.facebook.com/events/671512833481384/
+          - day: 3
+            event:
+              title: Analog Journey
+              venue: Twitch
+              role:
+                - VJ
+              url: https://youtu.be/tBmxpqBtwY4
+      - month: 2
+        days:
+          - day: 6
+            event:
+              title: Beginning' House & Emoning Chill Lounge
+              venue: Circus Tokyo
+              role:
+                - VJ
+              url:
+          - day: 20
+            event:
+              title: Beginning Online with voltra
+              venue: Circus Tokyo
+              role:
+                - VJ
+              url:
+          - day: 23
+            event:
+              title: Moment Tokyo × REZ × ゆるふわギャング
+              venue: Moment Tokyo
+              role:
+                - VJ
+              url: https://youtu.be/1zHFlwILw3k
